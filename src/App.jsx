@@ -3,7 +3,7 @@ import Main from "./Components/Main/Main";
 function App() {
   return (
     <>
-      <div className=" relative">
+      <div className="relative max-h-[100vh] overflow-hidden">
         <Header />
         <Main />
       </div>

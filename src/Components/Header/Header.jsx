@@ -2,12 +2,12 @@ import React from "react";
 import Logo from "./Logo";
 import Search from "./Search";
 import Profile from "./Project";
-import notification from '../../assets/notification.svg'
+import notification from "../../assets/notification.svg";
 import settings from "../../assets/settings.svg";
 import hamburger from "../../assets/hamburger.svg";
 const Header = () => {
   return (
-    <div className="sticky bg-white px-6 lg:px-none lg:none top-0">
+    <div className="sticky bg-white lg:px-none lg:none top-0">
       <div className="flex bg-white items-center justify-between lg:grid grid-cols-headerGrid ">
         <Logo />
         <div className=" block lg:hidden cursor-pointer">
@@ -35,8 +35,10 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <div className=" block lg:hidden">        <Profile />
-</div>
+        <div className=" block lg:hidden">
+          {" "}
+          <Profile />
+        </div>
       </div>
       <div className=" flex justify-center items-center mt-6 lg:hidden">
         {" "}
